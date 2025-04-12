@@ -7,11 +7,9 @@ compatibility_date = "2023-09-22"
 # command = "npm run build"
 # cwd = "dist"
 # watch_dir = "dist"
-# 启用 Node.js 兼容模式
 [node_compat]
 enable = true
 
-# 添加 Socket 绑定（解决 cloudflare:sockets 错误）
 [[unsafe.bindings]]
 name = "SOCKET"
 type = "socket"
