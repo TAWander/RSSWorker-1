@@ -38,3 +38,7 @@
     "sourcemap-codec": "npm:@jridgewell/sourcemap-codec@^1.5.0"
   }
 }
+
+git add package.json package-lock.json
+git commit -m "fix: align dependencies and regenerate lock file"
+git push origin main
